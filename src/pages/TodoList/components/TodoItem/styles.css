@@ -1,0 +1,20 @@
+.todo-item-container {
+  margin-bottom: 8px;
+}
+
+.todo-item-container .checkbox {
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.todo-item-container .editing-input {
+  margin-left: 23px;
+}
+
+.todo-item-container .description {
+  margin-right: 8px
+}
+
+.todo-item-container .done {
+  text-decoration: line-through;
+}
