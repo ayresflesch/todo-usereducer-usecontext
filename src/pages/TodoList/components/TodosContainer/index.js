@@ -6,7 +6,7 @@ import { StoreContext } from '../../../../provider/Store';
 
 const TodosContainer = () => {
 
-  const { state, actions, dispatch } = useContext(StoreContext)
+  const { state } = useContext(StoreContext)
 
   return (
     <ul className="todos-container">
